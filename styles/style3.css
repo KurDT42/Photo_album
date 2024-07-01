@@ -475,7 +475,7 @@ body {
   }
 
   .flower3 {
-    margin-left: 800px;
+    margin-left: 940px;
   }
 
   .album-blank-1 {
@@ -503,6 +503,9 @@ body {
 
   .flower2 {
     margin-left: 1300px;
+  }
+  .flower3{
+    margin-left: 700px;
   }
 
   .album-blank-1 {
@@ -533,6 +536,9 @@ body {
 
   .text-under2 {
     font-size: 30px;
+  }
+  .flower3{
+    margin-left: 900px;
   }
 }
 
@@ -626,6 +632,7 @@ body {
 }
 
 @media (max-width: 400px) {
+  
   .name {
     font-size: 55px;
     margin-top: 115px;
@@ -645,9 +652,9 @@ body {
   }
 
   .flower3 {
-    margin-top: 100px;
+    margin-top: 110px;
     width: 420px;
-    margin-left: 600px;
+    margin-left: 650px;
   }
 
   .flower2 {
