@@ -36,9 +36,8 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #9a7036, #5e094c, #1e2087, #7025e3);
-  background-size: 1500% 1500%;
-  animation: gradient 25s ease infinite;
+  background: linear-gradient(-5deg, #9a7036, #5e094c, #0d624b8c, #16a8d0);
+  background-size: 1000% 1000%;
 }
 
 .crane-bird {
@@ -153,7 +152,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 550px;
-  margin-left: 1040px;
+  left: 36  0px;
   margin-top: 50px;
 }
 
@@ -422,7 +421,7 @@ body {
 }
 
 .line-3 {
-  width: 1700px;
+  width: 1800px;
   height: 1500px;
   position: absolute;
   z-index: -1;
