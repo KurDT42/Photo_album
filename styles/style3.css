@@ -36,6 +36,12 @@ body {
 }
 
 body {
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: flex-start;
+  margin: 0px;
+  width: 100vw;
   background: linear-gradient(-5deg, #9a7036, #5e094c, #0d624b8c, #16a8d0);
   background-size: 1000% 1000%;
 }
