@@ -210,7 +210,7 @@ body {
 .album-blank-video2 {
   display: grid;
   grid-template-columns: [one] 400px [two] 500px [three] 400px [four] 400px [end];
-  grid-template-rows: [row1-start] 400px [row1-end] 400px 350px;
+  grid-template-rows: [row1-start] 400px [row1-end] 400px 450px;
   gap: 120px;
   /*Снизу 90 пикселя, справа 24*/
   margin-top: -55px;
@@ -235,7 +235,7 @@ body {
 
 .video_grid2 {
   margin-left: -15px;
-  margin-top: 440px;
+  margin-top: 500px;
   grid-column-start: two;
   grid-template-rows: row1-end;
 }
@@ -268,20 +268,20 @@ body {
 
 .text-under-video {
   margin-top: -40px;
-  margin-left: 100px;
+  margin-left: 50px;
   color: white;
   font-family: 'Steppe-ExtraBold', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
 
 .text-under-video2 {
   margin-top: -40px;
-  margin-left: 130px;
+  margin-left: 100px;
   color: white;
   font-family: 'Steppe-ExtraBold', sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
@@ -369,7 +369,7 @@ body {
   margin-top: 25px;
   color: white;
   font-family: 'Steppe-ExtraBold', sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
@@ -378,7 +378,7 @@ body {
   margin-top: 25px;
   color: white;
   font-family: 'Steppe-ExtraBold', sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
@@ -398,7 +398,7 @@ body {
   margin-top: 5px;
   color: white;
   font-family: 'Steppe-ExtraBold', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 120%;
 
   letter-spacing: 4px;
