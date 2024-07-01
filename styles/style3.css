@@ -11,21 +11,21 @@ html {
 
 @font-face {
   font-family: 'ofont.ru_Bukhari Script';
-  src: url('..Photo_album/fonts/ofont.ru_Bukhari-Script.woff') format('woff');
+  src: url('fonts/ofont.ru_Bukhari-Script.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Steppe-Book';
-  src: url('..Photo_album/fonts/Steppe-Book.woff') format('woff');
+  src: url('fonts/Steppe-Book.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Steppe-ExtraBold';
-  src: url('..Photo_album/fonts/Steppe-ExtraBold.woff') format('woff');
+  src: url('fonts/Steppe-ExtraBold.woff') format('woff');
 }
 @font-face {
   font-family: lifehack;
-  src: url('..Photo_album/fonts/lifehack-sans-3.woff') format('woff');
+  src: url('fonts/lifehack-sans-3.woff') format('woff');
 }
 
 html,
