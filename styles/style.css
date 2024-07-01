@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Steppe-Book';
+    src: url("../fonts/Steppe-Book.ttf");
+}
+
+@font-face {
+    font-family: 'Steppe-ExtraBold';
+    src: url("../fonts/Steppe-ExtraBold.ttf");
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.text-block{
+    padding: 200px 600px 200px 500px;
+}
+.fade-in{
+    font-size: 30px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+.fading {
+    padding-top: 100px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    color: #000000;
+    font-size: 58px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.fading span {
+    animation: fading 10s alternate infinite;
+    opacity: 0;
+}
+@keyframes fading {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    50%, 100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+.button {
+    margin-left: 370px;
+    background-color: #324cd6;
+    border-radius: 60px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+}

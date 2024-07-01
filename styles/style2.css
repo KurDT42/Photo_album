@@ -1,0 +1,218 @@
+
+html {
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Steppe-Book';
+    src: url("../fonts/Steppe-Book.ttf");
+}
+
+@font-face {
+    font-family: 'Steppe-ExtraBold';
+    src: url("../fonts/Steppe-ExtraBold.ttf");
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+    background-image: url("../images/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 960px;
+}
+
+.main .form-entrance {
+    position: relative;
+    width: inherit;
+    max-width: inherit;
+}
+
+.main {
+    position: absolute;
+    margin-top: 300px;
+    text-align: center;
+    width: 570px;
+    height: 440px;
+    border: 10px outset rgb(73, 133, 179);
+    margin-left: 35%;
+    margin-right: 30%;
+    z-index: 1;
+    max-width: inherit;
+
+}
+
+.form-entrance {
+    padding: 40px 0;
+    max-width: 1200px;
+
+    display: block;
+    height: 360px;
+
+    background: rgba(41, 71, 170, 0.78);
+    box-shadow: 0 250px 100px -120px rgba(54, 139, 236, 0.68) inset;
+    animation: background 15s infinite alternate;
+}
+
+@keyframes background {
+    50% {
+        background: rgba(63, 49, 147, 0.76);
+        box-shadow: 0 -250px 100px -120px rgba(10, 106, 200, 0.68) inset;
+    }
+}
+
+.item-image-1 img {
+    margin-top: 300px;
+    max-width: 25%;
+    z-index: -1;
+    position: absolute;
+}
+
+.item-image-2 img {
+    position: absolute;
+    width: 960px;
+    padding-left: 1100px;
+    z-index: -1;
+    left: 0;
+}
+
+.item-image-3 img {
+    margin-top: -80px;
+    margin-left: -20px;
+    width: 30%;
+    z-index: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+.item-image-bird img {
+    width: 30%;
+    z-index: -3;
+    margin-left: 700px;
+    margin-top: 610px;
+    position: absolute;
+}
+.item-image-crane img{
+    width: 5%;
+    z-index: -3;
+    margin-left: 1920px;
+    margin-top: 900px;
+    position: absolute;
+}
+
+.form-title {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-size: 25px;
+    line-height: 100%;
+    margin-top: 5px;
+    align-content: center;
+
+}
+
+.text-field-label {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    max-width: 697px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.input-text-login {
+    border: 1px solid white;
+    border-radius: 60px;
+    margin-bottom: 16px;
+    padding: 14px 12px;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    background: transparent; /*Прозрачная заливка*/
+    box-sizing: border-box;
+    outline: none; /*Без специальной подсветки*/
+    color: black;
+}
+
+.text-field-password {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    max-width: 697px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.text-field-input {
+    border: 1px solid white;
+    border-radius: 60px;
+    margin-bottom: 16px;
+    padding: 14px 12px;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    background: transparent; /*Прозрачная заливка*/
+    box-sizing: border-box;
+    outline: none; /*Без специальной подсветки*/
+    color: black;
+}
+
+.button-field {
+    background-color: #324cd6;
+    border-radius: 60px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.button-field:hover {
+    background-color: #eeeeee;
+}
+
+.button-field:hover {
+    background-color: #3b2cd8;
+}
+
+
+/*.textFieldInput {
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0.375rem 0.75rem;
+    height: calc(2.25rem + 2px);
+
+    background-color: #fff;
+    background-clip: padding-box;
+    color: #212529;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.35rem;
+}
+
+.buttonField {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #682fa2;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}*/
