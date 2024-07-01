@@ -11,7 +11,7 @@ html {
 
 @font-face {
   font-family: 'Bukhari Script';
-  src: url("..//ofont.ru_Bukhari-Script.woff") format('woff');
+  src: url("../ofont.ru_Bukhari-Script.woff") format('woff');
 }
 
 @font-face {
@@ -26,7 +26,7 @@ html {
 
 @font-face {
   font-family: 'lifehack';
-  src: url("lifehack-sans-3.woff") format('woff');
+  src: url("../lifehack-sans-3.woff") format('woff');
 }
 
 html,
