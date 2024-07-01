@@ -10,22 +10,23 @@ html {
 }
 
 @font-face {
-  font-family: 'ofont.ru_Bukhari Script';
-  src: url('fonts/ofont.ru_Bukhari-Script.woff') format('woff');
+  font-family: 'Bukhari Script';
+  src: url("../fonts/ofont.ru_Bukhari-Script.woff") format('woff');
 }
 
 @font-face {
   font-family: 'Steppe-Book';
-  src: url('fonts/Steppe-Book.woff') format('woff');
+  src: url("../fonts/Steppe-Book.woff") format('woff');
 }
 
 @font-face {
   font-family: 'Steppe-ExtraBold';
-  src: url('fonts/Steppe-ExtraBold.woff') format('woff');
+  src: url("../fonts/Steppe-ExtraBold.woff") format('woff');
 }
+
 @font-face {
-  font-family: lifehack;
-  src: url('fonts/lifehack-sans-3.woff') format('woff');
+  font-family: 'lifehack';
+  src: url("../fonts/lifehack-sans-3.woff") format('woff');
 }
 
 html,
@@ -51,9 +52,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 20% 50%;
   }
@@ -96,6 +99,7 @@ body {
   from {
     background-position: 1% center;
   }
+
   to {
     background-position: 200% center;
   }
@@ -152,6 +156,7 @@ body {
   margin-left: 1040px;
   margin-top: 50px;
 }
+
 .airplane {
   transform: rotate(-30deg);
   width: 750px;
@@ -162,7 +167,7 @@ body {
 }
 
 .name {
-  font-family: 'ofont.ru_Bukhari Script';
+  font-family: 'Bukhari Script';
   rotate: -20deg;
   font-size: 35px;
   position: absolute;
@@ -178,10 +183,13 @@ body {
 }
 
 .album-blank-1 {
-  display: grid; /*Для некой раскладки элементов внутри блока*/
+  display: grid;
+  /*Для некой раскладки элементов внутри блока*/
   grid-template-columns: [start] 400px [line2] 400px [line3] 400px[line4];
-  gap: 200px; /*Снизу 90 пикселя, справа 24*/
-  margin-top: -55px; /*Сверху 110*/
+  gap: 200px;
+  /*Снизу 90 пикселя, справа 24*/
+  margin-top: -55px;
+  /*Сверху 110*/
   margin-right: 590px;
   min-width: auto;
   position: relative;
@@ -191,44 +199,55 @@ body {
   display: grid;
   grid-template-columns: [one] 400px [two] 400px [three] 400px [four] 400px [end];
   grid-template-rows: [row1-start] 400px [row1-end] 400px 200px;
-  gap: 150px; /*Снизу 90 пикселя, справа 24*/
-  margin-top: -55px; /*Сверху 110*/
+  gap: 150px;
+  /*Снизу 90 пикселя, справа 24*/
+  margin-top: -55px;
+  /*Сверху 110*/
   margin-left: 90px;
   min-width: auto;
   position: relative;
 }
+
 .album-blank-video2 {
   display: grid;
   grid-template-columns: [one] 400px [two] 500px [three] 400px [four] 400px [end];
   grid-template-rows: [row1-start] 400px [row1-end] 400px 350px;
-  gap: 120px; /*Снизу 90 пикселя, справа 24*/
-  margin-top: -55px; /*Сверху 110*/
+  gap: 120px;
+  /*Снизу 90 пикселя, справа 24*/
+  margin-top: -55px;
+  /*Сверху 110*/
   margin-left: 80px;
   min-width: auto;
   position: relative;
 }
+
 .photo-image_up {
-  margin-top: 100px; /*Сверху 110*/
+  margin-top: 100px;
+  /*Сверху 110*/
   text-align: center;
 }
+
 .video_grid {
   margin-left: -65px;
   margin-top: 150px;
   grid-column-start: two;
   grid-template-rows: row1-start;
 }
+
 .video_grid2 {
   margin-left: -15px;
   margin-top: 440px;
   grid-column-start: two;
   grid-template-rows: row1-end;
 }
+
 .video_cat {
   background-color: black;
   padding: 15px 15px 25px 15px;
   border-radius: 40px;
   cursor: pointer;
 }
+
 .video_cat2 {
   background-color: black;
   padding: 15px 15px 25px 15px;
@@ -237,7 +256,8 @@ body {
 }
 
 .photo-image {
-  margin-top: 200px; /*Сверху 110*/
+  margin-top: 200px;
+  /*Сверху 110*/
   text-align: center;
 }
 
@@ -246,6 +266,7 @@ body {
   padding: 15px 15px 25px 15px;
   border-radius: 40px;
 }
+
 .text-under-video {
   margin-top: -40px;
   margin-left: 100px;
@@ -255,6 +276,7 @@ body {
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
+
 .text-under-video2 {
   margin-top: -40px;
   margin-left: 130px;
@@ -264,6 +286,7 @@ body {
   line-height: 120%;
   text-shadow: 4px 4px purple;
 }
+
 .image img {
   border-radius: 40px;
   cursor: pointer;
@@ -294,24 +317,33 @@ body {
 }
 
 .album-blank-2 {
-  display: grid; /*Для некой раскладки элементов внутри блока*/
-  grid-template-columns: 800px 800px; /*3 элемента по 384 пикселя*/
-  gap: 10px 24px; /*Снизу 90 пикселя, справа 24*/
-  margin-top: -55px; /*Сверху 110*/
+  display: grid;
+  /*Для некой раскладки элементов внутри блока*/
+  grid-template-columns: 800px 800px;
+  /*3 элемента по 384 пикселя*/
+  gap: 10px 24px;
+  /*Снизу 90 пикселя, справа 24*/
+  margin-top: -55px;
+  /*Сверху 110*/
   margin-left: -30px;
   min-width: auto;
 }
 
 .album-blank-2-2 {
-  display: grid; /*Для некой раскладки элементов внутри блока*/
-  grid-template-columns: 800px 800px; /*3 элемента по 384 пикселя*/
-  gap: 10px 24px; /*Снизу 90 пикселя, справа 24*/
-  margin-top: -55px; /*Сверху 110*/
+  display: grid;
+  /*Для некой раскладки элементов внутри блока*/
+  grid-template-columns: 800px 800px;
+  /*3 элемента по 384 пикселя*/
+  gap: 10px 24px;
+  /*Снизу 90 пикселя, справа 24*/
+  margin-top: -55px;
+  /*Сверху 110*/
   margin-left: 90px;
 }
 
 .photo-image2 {
-  margin-top: 200px; /*Сверху 110*/
+  margin-top: 200px;
+  /*Сверху 110*/
   text-align: center;
 }
 
@@ -397,36 +429,42 @@ body {
   top: 4401px;
   left: -50px;
 }
+
 .minto {
   position: absolute;
   margin-top: 650px;
   margin-left: 200px;
   width: 300px;
 }
+
 .minto3 {
   position: absolute;
   margin-top: 700px;
   margin-left: 250px;
   width: 300px;
 }
+
 .minto4 {
   position: absolute;
   width: 250px;
   margin-left: 450px;
   margin-top: -700px;
 }
+
 .minto5 {
   position: absolute;
   width: 250px;
   margin-left: 400px;
   margin-top: -540px;
 }
+
 .line4 {
   z-index: -2;
   position: absolute;
   margin-top: -1400px;
   overflow-x: hidden;
 }
+
 @media (max-width: 2200px) {
   .body {
     overflow-x: hidden;
@@ -436,21 +474,26 @@ body {
   .album-blank-2-2 {
     grid-template-columns: repeat(2, 700px);
   }
+
   .flower3 {
     margin-left: 800px;
   }
+
   .album-blank-1 {
     margin-left: 200px;
     gap: 100px;
   }
 }
+
 @media (max-width: 1600px) {
   .minto5 {
     margin-left: 300px;
   }
+
   .album-blank-video2 {
     margin-left: -50px;
   }
+
   .album-blank-video {
     margin-left: -50px;
   }
@@ -458,134 +501,167 @@ body {
   .flower1 {
     margin-left: 250px;
   }
+
   .flower2 {
     margin-left: 1300px;
   }
+
   .album-blank-1 {
     margin-left: -50px;
   }
+
   .text-up {
     font-size: 150px;
     margin-top: -150px;
   }
+
   .album-blank-2 {
     grid-template-columns: 800px 800px;
     margin-left: -200px;
   }
 }
+
 @media (max-width: 1200px) {
   .album-blank-1 {
     margin-left: 100px;
     grid-template-columns: repeat(3, 400px);
     gap: 100px;
   }
+
   .text-under {
     font-size: 30px;
   }
+
   .text-under2 {
     font-size: 30px;
   }
 }
+
 @media (max-width: 700px) {
   .album-blank-2-2 {
     margin-left: 50px;
   }
+
   .album-blank-1 {
     margin-left: 50px;
     grid-template-columns: repeat(3, 400px);
     gap: 100px;
   }
+
   .text-under {
     font-size: 30px;
   }
+
   .text-under2 {
     font-size: 30px;
   }
 }
+
 @media (max-width: 450px) {
   .minto5 {
     margin-top: -450px;
     margin-left: 330px;
     width: 200px;
   }
+
   .minto4 {
     margin-left: 320px;
   }
+
   .minto3 {
     width: 200px;
   }
+
   .video_grid {
     margin-top: 210px;
   }
+
   .album-blank-video {
     grid-template-columns: [one] 400px [two] 400px [three] 400px [four] 400px [end];
     grid-template-rows: [row1-start] 400px [row1-end] 400px 350px;
     margin-left: -20px;
     gap: 90px;
   }
+
   .video_grid2 {
     margin-top: 540px;
   }
+
   .album-blank-video2 {
     margin-left: -20px;
     grid-template-columns: [one] 400px [two] 500px [three] 400px [four] 400px [end];
     grid-template-rows: [row1-start] 400px [row1-end] 400px 550px;
     gap: 30px;
   }
+
   .border-post {
     margin-left: 300px;
   }
+
   .album-blank-2-2 {
     grid-template-columns: repeat(2, 600px);
   }
+
   .flower3 {
     margin-left: 600px;
   }
+
   .flower2 {
     margin-left: 1200px;
   }
+
   .album-blank-2 {
     grid-template-columns: repeat(2, 700px);
   }
+
   .album-blank-1 {
     margin-left: 50px;
     grid-template-columns: repeat(3, 400px);
     gap: 10px;
   }
+
   .name {
     margin-top: 30px;
     font-size: 95px;
   }
 }
+
 @media (max-width: 400px) {
   .name {
     font-size: 55px;
     margin-top: 115px;
     margin-left: -70px;
   }
+
   .album-blank-2 {
     margin-right: 20px;
   }
+
   .border-post {
     margin-left: 300px;
   }
+
   .album-blank-2-2 {
     margin-left: 30px;
   }
+
   .flower3 {
     margin-top: 100px;
     width: 420px;
     margin-left: 600px;
   }
+
   .flower2 {
     margin-left: 1000px;
   }
+
   .album-blank-1 {
     margin-top: 20px;
     margin-left: 20px;
     grid-template-columns: repeat(3, 400px);
     gap: 10px;
   }
+
   .text-up {
     margin-top: -181px;
     margin-bottom: 22px;
