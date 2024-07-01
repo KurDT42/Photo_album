@@ -8,7 +8,6 @@ html {
   margin: 0;
   padding: 0;
 }
-
 @font-face {
   font-family: 'Bukhari Script';
   src: url("../ofont.ru_Bukhari-Script.woff") format('woff');
@@ -38,10 +37,9 @@ body {
 body {
   align-content: center;
   align-items: center;
-  height: 100vh;
   justify-content: flex-start;
-  margin: 0px;
-  width: 100vw;
+  transform: scale(0.9); 
+  transform-origin: 1 0; 
   background: linear-gradient(-5deg, #9a7036, #5e094c, #0d624b8c, #16a8d0);
   background-size: 1000% 1000%;
 }
